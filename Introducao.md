@@ -1,6 +1,5 @@
 # Introdução: Bem-vindos a bordo da U.S.S. Pythonrise
 
-![U.S.S Pythonrise](<images/uss_pythonrise/uss_pythonrise%20(15).jpg>)
 Diário de bordo da Capitã, Data Estelar 41153.7:
 
 A U.S.S. Pythonrise embarca hoje em sua missão inaugural. Nossa tripulação, composta por alguns dos mais brilhantes cadetes da Frota Estelar, está pronta para explorar não apenas as fronteiras do espaço, mas também os limites do conhecimento em programação. Que nossa jornada seja tão vasta quanto o próprio cosmos e tão versátil quanto a linguagem que estamos prestes a dominar.
@@ -75,28 +74,22 @@ Características notáveis:
 
 ### Capitã T'Pral Bieniek (Vulcana)
 
-![Capitã T'Pral Bieniek](<images/capita_tpral/capita_tpral%20(9).jpg>)
-
 Nossa comandante, a Capitã T'Pral Bieniek, é uma vulcana que equilibra perfeitamente a lógica com uma compreensão única das nuances emocionais de outras espécies. Sua abordagem para o ensino de Python é tão precisa quanto um cálculo de dobra e tão inspiradora quanto uma nova descoberta estelar.
 
 ### Comandante Vorik (Betazoide)
 
-![Comandante Vorik](<images/vorik/vorik%20(4).jpg>)
 Nosso Primeiro Oficial e especialista em ciências, o Comandante Vorik, traz sua empatia betazoide para o ensino de Python. Sua habilidade de "sentir" as dificuldades dos estudantes antes mesmo que eles as expressem faz dele um mentor inestimável.
 
 ### Tenente Comandante Zhu'lo (Trill não-unido)
 
-![Tenente Comandante Zhu'lo](<images/engenheiro_chefe_zhulo/engenheiro_zhulo%20(7).jpg>)
 Como Engenheiro Chefe, Zhu'lo é responsável não apenas pelos sistemas da nave, mas também por ensinar os aspectos mais técnicos e arquiteturais do Python. Sua abordagem inovadora para resolução de problemas inspira os cadetes a pensar fora da caixa.
 
 ### Tenente K'Vagh (Klingon)
 
-![Tenente K'Vagh](<images/tenente_kvagh/tenente_kvagh%20(11).jpg>)
 Nosso Oficial Tático e instrutor de "Debugging Combativo", K'Vagh traz a honra e a paixão klingon para o mundo da programação. Ele ensina os cadetes a enfrentar bugs e erros de código como verdadeiros guerreiros.
 
 ### Dra. T'Lara (Vulcana/Humana)
 
-![Dra. T'Lara](<images/dra_tlara/dra_tlara%20(7).jpg>)
 Como nossa Oficial Médica Chefe e instrutora de "Ética em IA", a Dra. T'Lara oferece uma perspectiva única sobre as implicações éticas da programação, mesclando a lógica vulcana com a intuição humana.
 
 ## Cadetes Destacados
