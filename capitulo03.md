@@ -8,7 +8,7 @@ A U.S.S. Pythonrise acaba de entrar em órbita do planeta Syntaxia Prime, um mun
 
 ## Introdução à Sintaxe Python
 
-"A estrutura é o caminho para a clareza." - Surak de Vulcano
+> "A estrutura é o caminho para a clareza." - Surak de Vulcano
 
 Python, assim como a sociedade de Syntaxia Prime, é conhecida por sua clareza e legibilidade. Vamos explorar os elementos fundamentais que tornam o código Python tão distinto e eficiente.
 
@@ -20,10 +20,12 @@ A indentação em Python refere-se aos espaços no início de uma linha de códi
 
 Exemplo:
 
+```python
 if 5 > 2:
-print("Cinco é maior que dois!")
-print("Esta linha também faz parte do bloco if")
-print("Esta linha não faz parte do bloco if")
+    print("Cinco é maior que dois!")
+    print("Esta linha também faz parte do bloco if")
+    print("Esta linha não faz parte do bloco if")
+```
 
 Neste exemplo, as duas primeiras instruções print estão indentadas, indicando que elas fazem parte do bloco if. A terceira instrução print não está indentada, então ela será executada independentemente da condição if.
 
@@ -33,11 +35,13 @@ Cadete Nex'ala observa: "A indentação em Python lembra as formações de crist
 
 As variáveis em Python são como os cidadãos de Syntaxia Prime: cada um tem um nome único e um papel específico. Uma variável é um contêiner para armazenar dados. Em Python, você não precisa declarar o tipo de uma variável antes de usá-la. O tipo é determinado automaticamente quando você atribui um valor à variável.
 
+```python
 x = 5 # x é um número inteiro
 y = "Olá, Mundo!" # y é uma string
 
 print(x)
 print(y)
+```
 
 Neste exemplo, `x` é uma variável que armazena o número 5, e `y` é uma variável que armazena o texto "Olá, Mundo!". A função `print()` é usada para exibir o conteúdo dessas variáveis.
 
@@ -47,7 +51,9 @@ Tenente K'Vagh comenta: "Nomear variáveis é como escolher armas para uma batal
 
 Comentários são como os historiadores de Syntaxia Prime, preservando o conhecimento para as gerações futuras de programadores. Eles são textos no seu código que o Python ignora quando executa o programa. Comentários são usados para explicar o código, torná-lo mais legível, ou impedir a execução de certas partes do código durante testes.
 
+```python
 # Isto é um comentário de uma linha
+
 
 print("Olá, Mundo!") # Este comentário está após o código
 
@@ -56,6 +62,7 @@ Este é um comentário
 de múltiplas linhas.
 Ele pode abranger várias linhas.
 '''
+```
 
 Dra. T'Lara acrescenta: "Os comentários são como os registros médicos. Devem ser precisos, concisos e extremamente úteis para quem os lê no futuro."
 
@@ -63,12 +70,14 @@ Dra. T'Lara acrescenta: "Os comentários são como os registros médicos. Devem 
 
 Assim como a Federação abriga diversas espécies, Python acomoda vários tipos de dados. Os tipos de dados definem o tipo de valor que uma variável pode armazenar.
 
+```python
 x = 5 # int (número inteiro)
 y = 3.14 # float (número decimal)
 z = 1j # complex (número complexo)
 
 a = "IDIC" # str (string ou texto)
 b = True # bool (booleano, pode ser True ou False)
+```
 
 - Inteiros (int): Números inteiros, positivos ou negativos, sem decimais.
 - Floats (float): Números decimais, positivos ou negativos, contendo um ou mais decimais.
@@ -82,6 +91,7 @@ Engenheiro Chefe Zhu'lo explica: "Cada tipo de dado tem suas próprias caracter�
 
 Python oferece várias estruturas para agrupar dados, assim como a Federação une diferentes mundos. Estas estruturas permitem armazenar múltiplos itens em uma única variável.
 
+```python
 lista = ["warp", "phasers", "escudos"] # Lista: ordenada e mutável
 tupla = ("Kirk", "Picard", "Sisko") # Tupla: ordenada e imutável
 conjunto = {"Federação", "Klingon", "Romulano"} # Conjunto: não ordenado, sem duplicatas
@@ -90,6 +100,7 @@ dicionario = {
 "capitão": "Picard",
 "ano": 2364
 } # Dicionário: pares chave-valor
+```
 
 - Listas: Coleções ordenadas e mutáveis. Podem conter itens de diferentes tipos.
 - Tuplas: Coleções ordenadas e imutáveis. Usadas para dados que não devem ser alterados.
@@ -118,11 +129,13 @@ Capitã: "Excelente pergunta, Cadete. Pense na indentação como os níveis de c
 
 Veja este exemplo:
 
+```python
 if clima == 'ensolarado':
-print('Vamos para a praia!')
-if temperatura > 30:
-print('Não esqueça o protetor solar!')
+    print('Vamos para a praia!')
+    if temperatura > 30:
+        print('Não esqueça o protetor solar!')
 print('Tenha um bom dia!')
+```
 
 Neste código, a primeira linha com 'print' está indentada porque faz parte do bloco 'if'. A segunda linha com 'print' está ainda mais indentada porque faz parte de um 'if' dentro do primeiro 'if'. A última linha não está indentada porque não faz parte de nenhum bloco condicional.
 
@@ -134,12 +147,14 @@ Capitã: "Ótima observação, Cadete. As aspas são usadas para definir strings
 
 Por exemplo:
 
+```python
 nome = 'Zix'nar' # Uma string precisa de aspas
 idade = 20 # Um número não precisa de aspas
 altura = 1.75 # Números decimais também não precisam
 e_cadete = True # Valores booleanos (True/False) não usam aspas
 
 print(f'{nome} tem {idade} anos.')
+```
 
 Vê como misturamos variáveis com e sem aspas? É como misturar comunicação verbal e leituras de sensores em um relatório."
 
@@ -169,61 +184,70 @@ O jovem cadete deixa a ponte de comando com um novo brilho de entendimento em se
 
 ## Teste de Conhecimento
 
-1. Qual é a importância da indentação em Python?
+1. **Qual é a importância da indentação em Python?**
    a) Apenas estética
    b) Determina a estrutura do código
    c) Não tem importância
    d) Apenas para comentários
    e) Só é necessária em funções
-2. Como se declara uma variável em Python?
+
+2. **Como se declara uma variável em Python?**
    a) var x = 5
    b) int x = 5
    c) x = 5
    d) let x = 5
    e) define x = 5
-3. Qual é a sintaxe correta para um comentário de múltiplas linhas em Python?
+
+3. **Qual é a sintaxe correta para um comentário de múltiplas linhas em Python?**
    a) // Comentário
    b) # Comentário
    c) /_ Comentário _/
    d) ''' Comentário '''
    e) `<!-- Comentário -->`
-4. Qual dos seguintes não é um tipo de dado em Python?
+
+4. **Qual dos seguintes não é um tipo de dado em Python?**
    a) int
    b) float
    c) string
    d) boolean
    e) array
-5. Como se define uma lista em Python?
+
+5. **Como se define uma lista em Python?**
    a) lista = (1, 2, 3)
    b) lista = {1, 2, 3}
    c) lista = [1, 2, 3]
    d) lista = <1, 2, 3>
    e) lista = |1, 2, 3|
-6. Qual é a sintaxe correta para um comentário de uma linha em Python?
+
+6. **Qual é a sintaxe correta para um comentário de uma linha em Python?**
    a) // Comentário
    b) # Comentário
    c) /_ Comentário _/
    d) ' Comentário
    e) -- Comentário
-7. Como se define um dicionário em Python?
+
+7. **Como se define um dicionário em Python?**
    a) dict = [chave: valor]
    b) dict = (chave: valor)
    c) dict = {chave: valor}
    d) dict = <chave: valor>
    e) dict = |chave: valor|
-8. Qual é o operador de atribuição em Python?
+
+8. **Qual é o operador de atribuição em Python?**
    a) ==
    b) :=
    c) =
    d) =>
    e) <-
-9. Como se define uma tupla em Python?
+
+9. **Como se define uma tupla em Python?**
    a) tupla = [1, 2, 3]
    b) tupla = {1, 2, 3}
    c) tupla = (1, 2, 3)
    d) tupla = <1, 2, 3>
    e) tupla = |1, 2, 3|
-10. Qual é a sintaxe correta para imprimir "Olá, Mundo!" em Python?
+
+10. **Qual é a sintaxe correta para imprimir "Olá, Mundo!" em Python?**
     a) console.log("Olá, Mundo!")
     b) echo "Olá, Mundo!"
     c) System.out.println("Olá, Mundo!")
@@ -269,6 +293,6 @@ O jovem cadete deixa a ponte de comando com um novo brilho de entendimento em se
 ## Notas de Rodapé
 
 [^1]: A sintaxe de Python foi projetada para ser clara e legível, inspirada em parte pela filosofia do "Zen of Python".
-    
-[^2]: A indentação em Python substitui o uso de chaves ou palavras-chave para delimitar blocos de código, como visto em muitas outras linguagens de programação.
-       Isso foi uma decisão de design intencional para forçar um estilo de código consistente e legível.
+[^2]:
+    A indentação em Python substitui o uso de chaves ou palavras-chave para delimitar blocos de código, como visto em muitas outras linguagens de programação.
+    Isso foi uma decisão de design intencional para forçar um estilo de código consistente e legível.

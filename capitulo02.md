@@ -4,9 +4,9 @@
 
 Data Estelar 41153.7
 
-A U.S.S. Pythonrise acabou de deixar a Estação Espacial Deep Space 9 após um breve período de reabastecimento. Nossa missão de explorar os confins do espaço cibernético continua, mas hoje enfrentamos um novo desafio: iniciar nossos cadetes no mundo da programação Python.
+A U.S.S. Pythonrise acabou de deixar a Estação Espacial Deep Space 9 após um breve período de reabastecimento. Nossa missão de explorar os confins do espaço cibernético continua, mas hoje enfrentamos um novo desafio: iniciar nossos cadetes no mundo da programação Python[^1].
 
-Como diria o Capitão Picard, "Coisas impossíveis acontecem todos os dias." E hoje, transformaremos o impossível em possível, guiando nossos jovens cadetes através dos primeiros passos no vasto universo do Python.
+Como diria o Capitão Picard, "Coisas impossíveis acontecem todos os dias." E hoje, transformaremos o impossível em possível, guiando nossos jovens cadetes através dos primeiros passos no vasto universo do Python[^2].
 
 ## A Descoberta do Zen de Python: Uma Aventura Espacial
 
@@ -75,7 +75,11 @@ Bem-vindos, cadetes, ao seu primeiro dia de treinamento em Python a bordo da U.S
 #### Para macOS:
 
 1. Se você tiver o Homebrew instalado, abra o Terminal e digite:
+
+```bash
    brew install python
+```
+
 2. Alternativamente, baixe o instalador do site oficial do Python para macOS.
 3. Execute o pacote .pkg baixado e siga as instruções na tela.
 
@@ -83,13 +87,24 @@ Bem-vindos, cadetes, ao seu primeiro dia de treinamento em Python a bordo da U.S
 
 1. Python geralmente já vem pré-instalado em distribuições Linux.
 2. Para verificar, abra o terminal e digite:
+
+```bash
    python3 --version
-3. Se não estiver instalado, use o gerenciador de pacotes da sua distribuição:
+```
+
+4. Se não estiver instalado, use o gerenciador de pacotes da sua distribuição:
    - Para Ubuntu/Debian:
+
+```bash
      sudo apt-get update
      sudo apt-get install python3
-   - Para Fedora:
+```
+
+- Para Fedora:
+
+```bash
      sudo dnf install python3
+```
 
 Lembre-se, cadetes: "A instalação é o primeiro passo de uma grande jornada. Certifique-se de fazê-la corretamente, e o universo da programação se abrirá diante de você."
 
@@ -101,7 +116,9 @@ Agora que temos o Python instalado em nossas estações de trabalho, vamos criar
 
 Vamos começar com o tradicional programa "Olá, Mundo!". Este é o equivalente programático a dar o primeiro passo em um novo planeta.
 
+```bash
 print("Olá, Mundo!")
+```
 
 ### Explicação da Cadete Zora Chen
 
@@ -123,12 +140,20 @@ Agora que criamos nosso primeiro programa, precisamos saber como executá-lo. O 
 
 1. Abra seu editor de texto preferido. Pode ser o Notepad++, Sublime Text, ou até mesmo o bloco de notas padrão.
 2. Digite o código que acabamos de criar:
+
+```python
    print("Olá, Mundo!")
+```
+
 3. Salve o arquivo com um nome significativo, como `primeiro_contato.py`. A extensão `.py` é crucial!
 4. Abra o terminal (Prompt de Comando no Windows, Terminal no macOS/Linux).
 5. Navegue até o diretório onde você salvou o arquivo usando o comando `cd`.
 6. Execute o script digitando:
+
+```bash
    python primeiro_contato.py
+```
+
 7. Observe a saída gloriosa de seu primeiro programa!
 
 Lembrem-se: Executar um script é como iniciar uma batalha. Precisão e atenção aos detalhes são essenciais para a vitória!"
@@ -137,15 +162,15 @@ Lembrem-se: Executar um script é como iniciar uma batalha. Precisão e atençã
 
 Antes de continuarmos nossa jornada, é importante entender a filosofia por trás do Python. Como diria o Capitão Kirk, "A maior aventura é o que está à nossa frente, não o que deixamos para trás."
 
-### O Zen do Python
-
-O Zen do Python, escrito por Tim Peters, encapsula os princípios orientadores da linguagem. Você pode acessá-lo digitando `import this` no interpretador Python. Aqui estão alguns dos princípios mais relevantes:
-
-1. Bonito é melhor que feio.
-2. Explícito é melhor que implícito.
-3. Simples é melhor que complexo.
-4. Complexo é melhor que complicado.
-5. Legibilidade conta.
+> ### 🖖**O Zen do Python**
+>
+> O Zen do Python, escrito por Tim Peters, encapsula os princípios orientadores da linguagem. Você pode acessá-lo digitando `import this` no interpretador Python. Aqui estão alguns dos princípios mais relevantes[^3]:
+>
+> 1. Bonito é melhor que feio.
+> 2. Explícito é melhor que implícito.
+> 3. Simples é melhor que complexo.
+> 4. Complexo é melhor que complicado.
+> 5. Legibilidade conta.
 
 ### Comentário da Dra. T'Lara
 
@@ -163,70 +188,70 @@ Continuem explorando, questionando e, acima de tudo, programando. O universo da 
 
 Prepare-se para testar seu conhecimento recém-adquirido, cadetes! Respondam às seguintes questões:
 
-1. Qual comando usamos para exibir texto na tela em Python?
+1. **Qual comando usamos para exibir texto na tela em Python?**
    a) show()
    b) display()
    c) print()
    d) output()
    e) write()
 
-2. Qual é a extensão correta para um arquivo Python?
+2. **Qual é a extensão correta para um arquivo Python?**
    a) .pyt
    b) .py
    c) .pth
    d) .python
    e) .p
 
-3. Como podemos acessar o Zen do Python no interpretador?
+3. **Como podemos acessar o Zen do Python no interpretador?**
    a) print(zen)
    b) import zen
    c) python_zen()
    d) import this
    e) show_zen()
 
-4. Qual destas NÃO é uma parte do Zen do Python?
+4. **Qual destas NÃO é uma parte do Zen do Python?**
    a) Bonito é melhor que feio.
    b) Complexo é melhor que simples.
    c) Explícito é melhor que implícito.
    d) Legibilidade conta.
    e) Simples é melhor que complexo.
 
-5. Qual é o primeiro programa tradicionalmente escrito ao aprender uma nova linguagem?
+5. **Qual é o primeiro programa tradicionalmente escrito ao aprender uma nova linguagem?**
    a) Calculadora
    b) Olá, Mundo!
    c) Jogo da Velha
    d) Conversor de Temperatura
    e) Lista de Tarefas
 
-6. No Windows, qual opção é importante marcar durante a instalação do Python?
+6. **No Windows, qual opção é importante marcar durante a instalação do Python?**
    a) Install for all users
    b) Add Python to PATH
    c) Create desktop shortcut
    d) Install pip
    e) Enable debugging
 
-7. Qual comando usamos para verificar a versão do Python instalada no Linux?
+7. **Qual comando usamos para verificar a versão do Python instalada no Linux?**
    a) python --check
    b) version python
    c) python3 --version
    d) check_python_version
    e) linux_python_version
 
-8. Qual destas NÃO é uma maneira recomendada de instalar Python no macOS?
+8. **Qual destas NÃO é uma maneira recomendada de instalar Python no macOS?**
    a) Usando o instalador oficial do site python.org
    b) Através do Homebrew
    c) Baixando diretamente do GitHub
    d) Usando o gerenciador de pacotes pip
    e) Através da App Store
 
-9. O que as aspas duplas representam no comando print("Olá, Mundo!")?
+9. **O que as aspas duplas representam no comando print("Olá, Mundo!")?**
    a) Um comentário
    b) Uma variável
    c) Uma string (texto)
    d) Um número
    e) Um comando especial
 
-10. Qual é o propósito principal da função print() em Python?
+10. **Qual é o propósito principal da função print() em Python?**
     a) Realizar cálculos matemáticos
     b) Criar loops no programa
     c) Exibir informações na tela
@@ -267,30 +292,21 @@ Tenente Comandante Vorik fornece as respostas comentadas:
 10. c) Exibir informações na tela
     "A principal função de print() é exibir informações na saída padrão, que geralmente é a tela do computador."
 
-"Lembrem-se, cadetes, que entender esses conceitos básicos é crucial para sua jornada em Python. Como dizemos em Betazed, 'O conhecimento é a base da compreensão, e a compreensão é o caminho para a maestria.'"
+> :memo: **Importante:** "Lembrem-se, cadetes, que entender esses conceitos básicos é crucial para sua jornada em Python. Como dizemos em Betazed, 'O conhecimento é a base da compreensão, e a compreensão é o caminho para a maestria.'"
 
 ## Glossário
 
 Dra. T'Lara apresenta o glossário dos termos utilizados neste capítulo:
 
 1. **Python**: Uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida por sua simplicidade e legibilidade.
-
 2. **Script**: Um arquivo contendo código Python que pode ser executado.
-
 3. **Interpretador**: Um programa que lê e executa código Python linha por linha.
-
 4. **Função**: Um bloco de código reutilizável que realiza uma tarefa específica. Por exemplo, `print()` é uma função.
-
 5. **String**: Uma sequência de caracteres, geralmente representada entre aspas simples ou duplas.
-
 6. **Sintaxe**: As regras que definem como o código deve ser escrito para ser válido em Python.
-
 7. **IDE (Integrated Development Environment)**: Um software que fornece ferramentas abrangentes para desenvolvimento de software, incluindo um editor de código, depurador e executor.
-
 8. **Terminal/Prompt de Comando**: Uma interface de linha de comando usada para executar comandos no computador.
-
 9. **PATH**: Uma variável de ambiente do sistema que especifica os diretórios onde o sistema operacional procura por programas executáveis.
-
 10. **Zen do Python**: Um conjunto de princípios para escrever bom código Python, acessível através do comando `import this`.
 
 "Lembrem-se, cadetes," diz a Dra. T'Lara, "que dominar estes termos é como aprender a linguagem de um novo mundo. Cada palavra nos aproxima mais da fluência em Python."
@@ -301,16 +317,12 @@ Para solidificar o conhecimento adquirido neste capítulo, a Cadete Nex'ala prep
 
 1. **Instalação e Verificação**:
    Instale Python em seu computador pessoal e verifique a versão instalada usando o terminal ou prompt de comando.
-
 2. **Olá, [Seu Nome]!**:
    Modifique o programa "Olá, Mundo!" para imprimir "Olá, [Seu Nome]!", substituindo [Seu Nome] pelo seu nome real.
-
 3. **Exploração do Zen**:
    Execute `import this` no interpretador Python e escolha seu aforismo favorito do Zen do Python. Escreva um breve parágrafo explicando por que você o escolheu.
-
 4. **Print Múltiplo**:
    Crie um script Python que use a função `print()` três vezes para imprimir três frases diferentes, cada uma em uma nova linha.
-
 5. **Comentários**:
    Adicione comentários ao seu script "Olá, [Seu Nome]!" explicando o que cada linha do código faz.
 
@@ -321,13 +333,9 @@ Para solidificar o conhecimento adquirido neste capítulo, a Cadete Nex'ala prep
 Para aqueles que desejam explorar mais além, o Tenente Comandante Vorik recomenda os seguintes recursos:
 
 1. [Documentação oficial do Python](https://docs.python.org/3/): "A fonte definitiva de conhecimento sobre Python."
-
 2. [Python para Todos - Curso em vídeo](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0): "Um excelente curso em português para iniciantes."
-
 3. [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/): "Um livro prático que ensina Python através de projetos do mundo real."
-
 4. [Real Python](https://realpython.com/): "Um site com tutoriais abrangentes e artigos aprofundados sobre Python."
-
 5. [Python Tutor](http://pythontutor.com/): "Uma ferramenta de visualização que ajuda a entender como o Python executa seu código passo a passo."
 
 "Estes recursos," explica Vorik, "são como os bancos de dados da Federação. Eles contêm uma vasta quantidade de conhecimento esperando para ser explorado. Use-os sabiamente em sua jornada de aprendizado."
