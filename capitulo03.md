@@ -186,72 +186,72 @@ O jovem cadete deixa a ponte de comando com um novo brilho de entendimento em se
 
 1. **Qual é a importância da indentação em Python?**
    a) Apenas estética
-   b) Determina a estrutura do código
-   c) Não tem importância
-   d) Apenas para comentários
+   b) Determina a estrutura do código  
+   c) Não tem importância  
+   d) Apenas para comentários  
    e) Só é necessária em funções
 
 2. **Como se declara uma variável em Python?**
-   a) var x = 5
-   b) int x = 5
-   c) x = 5
-   d) let x = 5
+   a) var x = 5  
+   b) int x = 5  
+   c) x = 5  
+   d) let x = 5  
    e) define x = 5
 
 3. **Qual é a sintaxe correta para um comentário de múltiplas linhas em Python?**
-   a) // Comentário
-   b) # Comentário
-   c) /_ Comentário _/
-   d) ''' Comentário '''
+   a) // Comentário  
+   b) # Comentário  
+   c) /_ Comentário _/  
+   d) ''' Comentário '''  
    e) `<!-- Comentário -->`
 
 4. **Qual dos seguintes não é um tipo de dado em Python?**
-   a) int
-   b) float
-   c) string
-   d) boolean
+   a) int  
+   b) float  
+   c) string  
+   d) boolean  
    e) array
 
 5. **Como se define uma lista em Python?**
-   a) lista = (1, 2, 3)
-   b) lista = {1, 2, 3}
-   c) lista = [1, 2, 3]
-   d) lista = <1, 2, 3>
+   a) lista = (1, 2, 3)  
+   b) lista = {1, 2, 3}  
+   c) lista = [1, 2, 3]  
+   d) lista = <1, 2, 3>  
    e) lista = |1, 2, 3|
 
 6. **Qual é a sintaxe correta para um comentário de uma linha em Python?**
-   a) // Comentário
-   b) # Comentário
-   c) /_ Comentário _/
-   d) ' Comentário
+   a) // Comentário  
+   b) # Comentário  
+   c) /_ Comentário _/  
+   d) ' Comentário  
    e) -- Comentário
 
 7. **Como se define um dicionário em Python?**
-   a) dict = [chave: valor]
-   b) dict = (chave: valor)
-   c) dict = {chave: valor}
-   d) dict = <chave: valor>
+   a) dict = [chave: valor]  
+   b) dict = (chave: valor)  
+   c) dict = {chave: valor}  
+   d) dict = <chave: valor>  
    e) dict = |chave: valor|
 
 8. **Qual é o operador de atribuição em Python?**
-   a) ==
-   b) :=
-   c) =
-   d) =>
+   a) ==  
+   b) :=  
+   c) =  
+   d) =>  
    e) <-
 
 9. **Como se define uma tupla em Python?**
-   a) tupla = [1, 2, 3]
-   b) tupla = {1, 2, 3}
-   c) tupla = (1, 2, 3)
-   d) tupla = <1, 2, 3>
+   a) tupla = [1, 2, 3]  
+   b) tupla = {1, 2, 3}  
+   c) tupla = (1, 2, 3)  
+   d) tupla = <1, 2, 3>  
    e) tupla = |1, 2, 3|
 
 10. **Qual é a sintaxe correta para imprimir "Olá, Mundo!" em Python?**
-    a) console.log("Olá, Mundo!")
-    b) echo "Olá, Mundo!"
-    c) System.out.println("Olá, Mundo!")
-    d) print("Olá, Mundo!")
+    a) console.log("Olá, Mundo!")  
+    b) echo "Olá, Mundo!"  
+    c) System.out.println("Olá, Mundo!")  
+    d) print("Olá, Mundo!")  
     e) printf("Olá, Mundo!")
 
 ## Respostas Comentadas por Tenente Comandante Vorik

@@ -189,73 +189,73 @@ Continuem explorando, questionando e, acima de tudo, programando. O universo da 
 Prepare-se para testar seu conhecimento recém-adquirido, cadetes! Respondam às seguintes questões:
 
 1. **Qual comando usamos para exibir texto na tela em Python?**
-   a) show()
-   b) display()
-   c) print()
-   d) output()
+   a) show()  
+   b) display()  
+   c) print()  
+   d) output()  
    e) write()
 
 2. **Qual é a extensão correta para um arquivo Python?**
-   a) .pyt
-   b) .py
-   c) .pth
-   d) .python
+   a) .pyt  
+   b) .py  
+   c) .pth  
+   d) .python  
    e) .p
 
 3. **Como podemos acessar o Zen do Python no interpretador?**
-   a) print(zen)
-   b) import zen
-   c) python_zen()
-   d) import this
+   a) print(zen)  
+   b) import zen  
+   c) python_zen()  
+   d) import this  
    e) show_zen()
 
 4. **Qual destas NÃO é uma parte do Zen do Python?**
-   a) Bonito é melhor que feio.
-   b) Complexo é melhor que simples.
-   c) Explícito é melhor que implícito.
-   d) Legibilidade conta.
+   a) Bonito é melhor que feio.  
+   b) Complexo é melhor que simples.  
+   c) Explícito é melhor que implícito.  
+   d) Legibilidade conta.  
    e) Simples é melhor que complexo.
 
 5. **Qual é o primeiro programa tradicionalmente escrito ao aprender uma nova linguagem?**
-   a) Calculadora
-   b) Olá, Mundo!
-   c) Jogo da Velha
-   d) Conversor de Temperatura
+   a) Calculadora  
+   b) Olá, Mundo!  
+   c) Jogo da Velha  
+   d) Conversor de Temperatura  
    e) Lista de Tarefas
 
 6. **No Windows, qual opção é importante marcar durante a instalação do Python?**
-   a) Install for all users
-   b) Add Python to PATH
-   c) Create desktop shortcut
-   d) Install pip
+   a) Install for all users  
+   b) Add Python to PATH  
+   c) Create desktop shortcut  
+   d) Install pip  
    e) Enable debugging
 
 7. **Qual comando usamos para verificar a versão do Python instalada no Linux?**
-   a) python --check
-   b) version python
-   c) python3 --version
-   d) check_python_version
+   a) python --check  
+   b) version python  
+   c) python3 --version  
+   d) check_python_version  
    e) linux_python_version
 
 8. **Qual destas NÃO é uma maneira recomendada de instalar Python no macOS?**
-   a) Usando o instalador oficial do site python.org
-   b) Através do Homebrew
-   c) Baixando diretamente do GitHub
-   d) Usando o gerenciador de pacotes pip
+   a) Usando o instalador oficial do site python.org  
+   b) Através do Homebrew  
+   c) Baixando diretamente do GitHub  
+   d) Usando o gerenciador de pacotes pip  
    e) Através da App Store
 
 9. **O que as aspas duplas representam no comando print("Olá, Mundo!")?**
-   a) Um comentário
-   b) Uma variável
-   c) Uma string (texto)
-   d) Um número
+   a) Um comentário  
+   b) Uma variável  
+   c) Uma string (texto)  
+   d) Um número  
    e) Um comando especial
 
 10. **Qual é o propósito principal da função print() em Python?**
-    a) Realizar cálculos matemáticos
-    b) Criar loops no programa
-    c) Exibir informações na tela
-    d) Conectar-se à internet
+    a) Realizar cálculos matemáticos  
+    b) Criar loops no programa  
+    c) Exibir informações na tela  
+    d) Conectar-se à internet  
     e) Armazenar dados em um arquivo
 
 ## Respostas do Teste
