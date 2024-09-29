@@ -277,6 +277,81 @@ O jovem cadete deixa a ponte de comando com um novo brilho de entendimento em se
 10. d) print("Olá, Mundo!")
     A função print() é usada em Python para exibir saída no console.
 
+## Exercícios Práticos
+
+Para consolidar seu conhecimento sobre a sintaxe básica de Python, tente resolver os seguintes exercícios. Lembre-se, a prática é a chave para dominar qualquer linguagem de programação!
+
+### Exercício 1: Indentação e Estrutura
+
+Corrija a indentação do seguinte código para que ele funcione corretamente:
+
+```python
+def missao_estelar():
+print("Iniciando missão estelar")
+if combustivel > 50:
+print("Combustível suficiente para a jornada")
+iniciar_motores()
+else:
+print("Combustível insuficiente")
+abortar_missao()
+print("Fim da verificação")
+```
+
+### Exercício 2: Variáveis e Tipos de Dados
+
+Crie variáveis para armazenar as seguintes informações sobre uma nave estelar:
+
+- Nome da nave
+- Ano de fabricação
+- Velocidade máxima (em unidades warp)
+- Tripulação atual
+- Missão ativa (verdadeiro ou falso)
+
+Em seguida, imprima todas essas informações usando uma única instrução print().
+
+### Exercício 3: Listas e Dicionários
+
+Crie uma lista chamada `planetas_visitados` com pelo menos 5 nomes de planetas.
+Em seguida, crie um dicionário chamado `ultima_missao` que contenha as seguintes informações:
+
+- Planeta visitado (use o último planeta da sua lista)
+- Data da visita
+- Duração da missão em dias
+- Comandante responsável
+
+Imprima o terceiro planeta da lista e todas as informações da última missão.
+
+### Exercício 4: Comentários e Documentação
+
+Escreva uma função chamada `teletransporte` que aceita dois parâmetros: `pessoa` e `local`. A função deve imprimir uma mensagem dizendo que a pessoa foi teletransportada para o local.
+
+Adicione um comentário de uma linha explicando o que a função faz.
+Adicione uma string de documentação (docstring) à função explicando os parâmetros e o que a função retorna.
+
+### Exercício 5: Operações e Comparações
+
+Escreva um programa que:
+
+1. Defina a quantidade atual de dilitio como 100 unidades
+2. Defina o consumo de dilitio por dia como 10 unidades
+3. Calcule por quantos dias a nave pode operar com o dilitio atual
+4. Verifique se essa quantidade de dias é suficiente para uma missão de 15 dias
+5. Imprima uma mensagem indicando se a missão pode ou não ser realizada com o dilitio disponível
+
+### Desafio Final: Simulador Básico de Nave Estelar
+
+Crie um programa que simule algumas operações básicas de uma nave estelar. O programa deve:
+
+1. Inicializar a nave com um nome, nível de energia e velocidade inicial
+2. Ter uma função para aumentar a velocidade
+3. Ter uma função para diminuir a velocidade
+4. Ter uma função para recarregar a energia
+5. Ter uma função para exibir o status atual da nave
+
+Use variáveis, funções, condicionais e pelo menos uma estrutura de dados (lista ou dicionário) em seu programa.
+
+Boa sorte, cadetes! Lembrem-se: a prática leva à perfeição, tanto na programação quanto na exploração espacial. Se tiverem dúvidas, não hesitem em consultar o oficial de ciências ou o engenheiro chefe da nave.
+
 ## Glossário por Dra. T'Lara
 
 1. Sintaxe: Conjunto de regras que definem como o código de um programa deve ser escrito.
