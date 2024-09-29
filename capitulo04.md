@@ -197,73 +197,73 @@ Neste capítulo, exploramos a importância dos comentários em Python. Aprendemo
 ## Teste de Conhecimento
 
 1. Qual símbolo é usado para iniciar um comentário de linha única em Python?
-   a) //
-   b) #
-   c) /\*
-   d) '''
+   a) //  
+   b) #  
+   c) /\*  
+   d) '''  
    e) --
 
 2. Como você cria um comentário de múltiplas linhas em Python?
-   a) Usando // no início de cada linha
-   b) Usando # no início de cada linha
-   c) Usando ''' ou """ para envolver o comentário
-   d) Usando /_ para iniciar e _/ para terminar
+   a) Usando // no início de cada linha  
+   b) Usando # no início de cada linha  
+   c) Usando ''' ou """ para envolver o comentário  
+   d) Usando /_ para iniciar e _/ para terminar  
    e) Usando -- no início de cada linha
 
 3. O que é uma docstring em Python?
-   a) Um tipo especial de string que não pode ser modificada
-   b) Um comentário que aparece como primeiro statement em um módulo, função, classe ou método
-   c) Uma string que contém apenas documentação e nenhum código executável
-   d) Um comentário que é automaticamente gerado pelo Python
+   a) Um tipo especial de string que não pode ser modificada  
+   b) Um comentário que aparece como primeiro statement em um módulo, função, classe ou método  
+   c) Uma string que contém apenas documentação e nenhum código executável  
+   d) Um comentário que é automaticamente gerado pelo Python  
    e) Uma string que é usada apenas para debugging
 
 4. Qual é a principal função dos comentários em programação?
-   a) Aumentar o desempenho do código
-   b) Detectar erros no código
-   c) Tornar o código mais rápido
-   d) Explicar e documentar o código
+   a) Aumentar o desempenho do código  
+   b) Detectar erros no código  
+   c) Tornar o código mais rápido  
+   d) Explicar e documentar o código  
    e) Compilar o código mais eficientemente
 
 5. Em Python, os comentários são:
-   a) Executados antes do código principal
-   b) Executados depois do código principal
-   c) Ignorados pelo interpretador Python
-   d) Convertidos em código executável
+   a) Executados antes do código principal  
+   b) Executados depois do código principal  
+   c) Ignorados pelo interpretador Python  
+   d) Convertidos em código executável  
    e) Usados para definir variáveis globais
 
 6. Qual das seguintes afirmações sobre docstrings é verdadeira?
-   a) Elas são ignoradas pelo interpretador Python
-   b) Elas só podem ser usadas em funções
-   c) Elas são obrigatórias em todo código Python
-   d) Elas são executadas como parte do código
+   a) Elas são ignoradas pelo interpretador Python  
+   b) Elas só podem ser usadas em funções  
+   c) Elas são obrigatórias em todo código Python  
+   d) Elas são executadas como parte do código  
    e) Elas só podem conter uma linha de texto
 
 7. Qual é uma boa prática ao escrever comentários?
-   a) Comentar cada linha de código
-   b) Usar comentários para explicar o "porquê", não o "o quê"
-   c) Escrever comentários apenas em inglês
-   d) Nunca atualizar os comentários
+   a) Comentar cada linha de código  
+   b) Usar comentários para explicar o "porquê", não o "o quê"  
+   c) Escrever comentários apenas em inglês  
+   d) Nunca atualizar os comentários  
    e) Usar o máximo de jargão técnico possível
 
 8. Como você acessa a docstring de uma função em Python?
-   a) função.docstring()
-   b) print(função.**doc**)
-   c) help(função)
-   d) função.comentário
+   a) função.docstring()  
+   b) print(função.**doc**)  
+   c) help(função)  
+   d) função.comentário  
    e) Tanto b quanto c estão corretas
 
 9. Qual é o propósito principal de um comentário de linha única?
-   a) Documentar funções complexas
-   b) Criar documentação para APIs
-   c) Fornecer uma breve explicação para uma linha específica de código
-   d) Desativar temporariamente grandes blocos de código
+   a) Documentar funções complexas  
+   b) Criar documentação para APIs  
+   c) Fornecer uma breve explicação para uma linha específica de código  
+   d) Desativar temporariamente grandes blocos de código  
    e) Definir variáveis globais
 
 10. Qual das seguintes não é uma forma válida de comentário em Python?
-    a) # Comentário de linha única
-    b) ''' Comentário de múltiplas linhas '''
-    c) """ Docstring """
-    d) // Comentário de linha única
+    a) # Comentário de linha única  
+    b) ''' Comentário de múltiplas linhas '''  
+    c) """ Docstring """  
+    d) // Comentário de linha única  
     e) Todas as formas acima são válidas em Python
 
 ## Respostas do Teste comentadas pelo Tenente Comandante Vorik
